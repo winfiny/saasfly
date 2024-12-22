@@ -19,17 +19,17 @@
     "": ""
   },
   "marketing": {
-    "introducing": "Introducing Saasfly",
-    "title": "Saasfly: A new SaaS player? Make things easier.",
-    "sub_title": "Your complete All-in-One solution for building SaaS services.",
+    "introducing": "Introducing aiNow",
+    "title": "aiNow: Your Intelligent AI Assistant",
+    "sub_title": "Your comprehensive solution for navigating complex information landscapes",
     "get_started": "Get Started",
     "view_on_github": "View on GitHub",
-    "explore_product": "Explore Product",
-    "features": "Features",
-    "sub_features": "Cloud-native: Simplifying technology and reducing costs for startups.",
-    "k8s_features": "Fast, simple development",
-    "devops_features": "Easy application deployment",
-    "price_features": "Economically efficient for production environments.",
+    "explore_product": "Explore aiNow",
+    "features": "Key Features",
+    "sub_features": "Context-aware: Enhancing understanding and decision-making across various domains",
+    "k8s_features": "Intelligent Information Retrieval",
+    "devops_features": "Seamless Knowledge Integration",
+    "price_features": "Cost-effective insights for businesses of all sizes",
     "main_nav_features": "Features",
     "main_nav_pricing": "Pricing",
     "main_nav_products": "Products",
@@ -52,7 +52,7 @@
     "": ""
   },
   "common": {
-    "copyright": "Copyright © ${currentYear} Nextify Limited. All rights reserved.",
+    "copyright": "Copyright © ${currentYear} aiNow Limited. All rights reserved.",
     "dashboard": {
       "main_nav_documentation": "Documentation",
       "main_nav_support": "Support",

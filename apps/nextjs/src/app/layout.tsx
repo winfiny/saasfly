@@ -53,7 +53,7 @@ export const metadata = {
       name: "saasfly",
     },
   ],
-  creator: "Saasfly",
+  creator: "aiNow",
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -94,7 +94,7 @@ export default function RootLayout({
           defaultTheme="dark"
           enableSystem={false}
         >
-          <NextDevtoolsProvider>{children}</NextDevtoolsProvider>
+          {children}
           <Analytics />
           <SpeedInsights />
           <Toaster />

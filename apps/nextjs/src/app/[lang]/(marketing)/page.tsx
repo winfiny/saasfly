@@ -19,9 +19,9 @@ import type { Meteor } from "~/types/meteors";
 const meteors_data: Meteor = {
   name: "Join our Discord",
   description:
-    "Join our Discord server to chat with other developers and get help.",
+    "Join our Discord server to connect with other users and receive assistance navigating complex information challenges with aiNow.",
   button_content: "Chat with us",
-  url: "https://discord.gg/8SwSX43wnD",
+  url: "https://www.google.com",
 };
 
 export default async function IndexPage({
@@ -39,9 +39,9 @@ export default async function IndexPage({
         <div className="grid grid-cols-1 gap-10 pb-10 md:pb-40 xl:grid-cols-2">
           <div className="flex flex-col items-start">
             <div className="flex flex-col pt-4 md:pt-28 lg:pt-28 xl:pt-28">
-              <Link href="https://document.saasfly.io" target="_blank">
+              <Link href="https://atd.yogviyog.com" target="_blank">
                 <DocumentGuide>
-                  {dict.marketing.introducing || "Introducing Saasfly"}
+                  {dict.marketing.introducing || "Introducing aiNow"}
                 </DocumentGuide>
               </Link>
 
@@ -67,15 +67,6 @@ export default async function IndexPage({
                       {dict.marketing.get_started}
                     </span>
                   </ShimmerButton>
-                </Link>
-
-                <Link href="https://github.com/saasfly/saasfly" target="_blank">
-                  <div className="flex h-full items-center justify-center">
-                    <Icons.GitHub className="mr-2 h-6 w-6" />
-                    <span className="text-base font-semibold">
-                      {dict.marketing.view_on_github || "View on GitHub"}
-                    </span>
-                  </div>
                 </Link>
               </div>
             </div>

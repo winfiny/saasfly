@@ -49,21 +49,21 @@ export const TypewriterEffectImpl = ({
   const renderWords = () => {
     return (
       <motion.span ref={scope} className="inline">
-        {wordsArray.map((word, idx) => (
-          <React.Fragment key={`word-${idx}`}>
-            {word.text.map((char, index) => (
-              <motion.span
-                initial={{}}
-                key={`char-${index}`}
-                className={cn(`hidden text-zinc-500 opacity-0`, word.className)}
-              >
-                {char}
-              </motion.span>
-            ))}
-            &nbsp;
-          </React.Fragment>
-        ))}
-      </motion.span>
+      {wordsArray.map((word, idx) => (
+        <span key={`word-${idx}`} style={{ whiteSpace: 'nowrap', display: 'inline-block' }}>
+          {word.text.map((char, index) => (
+            <motion.span
+              initial={{}}
+              key={`char-${index}`}
+              className={cn(`hidden text-zinc-500 opacity-0`, word.className)}
+            >
+              {char}
+            </motion.span>
+          ))}
+          &nbsp;
+        </span>
+      ))}
+    </motion.span>
     );
   };
 
