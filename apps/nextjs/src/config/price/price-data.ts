@@ -89,7 +89,6 @@ export const priceDataMap: Record<string, SubscriptionPlanTranslation[]> = {
         monthly: env.NEXT_PUBLIC_STRIPE_BUSINESS_MONTHLY_PRICE_ID,
         yearly: env.NEXT_PUBLIC_STRIPE_BUSINESS_YEARLY_PRICE_ID,
       },
-    }
-    
+    },
   ],
 };

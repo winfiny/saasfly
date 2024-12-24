@@ -107,10 +107,10 @@ const authMiddleware = withAuth(
       return NextResponse.next();
     }
     if (isAuthPage) {
-      if (isAuth) {
-        return NextResponse.redirect(new URL(`/${locale}/dashboard`, req.url));
-      }
-      return null;
+      // if (isAuth) {
+      //   return NextResponse.redirect(new URL(`/${locale}/dashboard`, req.url));
+      // }
+      return NextResponse.next();
     }
     if (!isAuth) {
       let from = req.nextUrl.pathname;

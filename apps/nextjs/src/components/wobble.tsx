@@ -16,7 +16,9 @@ export function WobbleCardShow() {
             Stay Informed
           </h2>
           <p className="mt-4 text-left text-base/6 text-neutral-200">
-            aiNow is constantly evolving to provide the most accurate and context-aware insights, helping you navigate complex challenges effortlessly.
+            aiNow is constantly evolving to provide the most accurate and
+            context-aware insights, helping you navigate complex challenges
+            effortlessly.
           </p>
         </div>
         <img
@@ -32,7 +34,8 @@ export function WobbleCardShow() {
           Our Vision
         </h2>
         <p className="mt-4 max-w-[26rem] text-left text-base/6 text-neutral-200">
-          At aiNow, we aim to revolutionize how users interact with information by providing intelligent, context-aware assistance.
+          At aiNow, we aim to revolutionize how users interact with information
+          by providing intelligent, context-aware assistance.
         </p>
       </WobbleCard>
       <WobbleCard containerClassName="col-span-1 lg:col-span-3 bg-blue-900 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
@@ -41,7 +44,9 @@ export function WobbleCardShow() {
             Simplify Complex Information with aiNow.
           </h2>
           <p className="mt-4 max-w-[26rem] text-left text-base/6 text-neutral-200">
-            aiNow integrates knowledge from diverse sources to provide actionable insights, empowering you to make informed decisions faster.
+            aiNow integrates knowledge from diverse sources to provide
+            actionable insights, empowering you to make informed decisions
+            faster.
           </p>
         </div>
         <img

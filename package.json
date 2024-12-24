@@ -34,5 +34,11 @@
     "packages/*",
     "tooling/*"
   ],
-  "packageManager": "bun@v1.1.10"
+  "packageManager": "bun@v1.1.10",
+  "dependencies": {
+    "@auth/firebase-adapter": "^2.7.4",
+    "@firebase/auth": "^1.8.1",
+    "firebase": "^11.1.0",
+    "firebase-admin": "^13.0.2"
+  }
 }
